@@ -4,6 +4,9 @@
 html {
     scroll-behavior: smooth;
 }
+html, body {
+    overflow-x: hidden;
+}
 
 /* Fix for responsive spacing */
 @media (max-width: 768px) {
